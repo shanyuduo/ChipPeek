@@ -348,6 +348,7 @@ class MonitorWindow:
         self._is_dragging = False
         self._labels = {}
         self._row_frames = {}
+        self._settings_open = False
         self._build_window()
 
     def _build_window(self):
@@ -422,6 +423,8 @@ class MonitorWindow:
         self.root.after(2000, self._setup_topmost_timer)
 
     def _force_topmost(self):
+        if self._settings_open:
+            return
         if not HAS_WIN32:
             return
         try:
@@ -665,7 +668,16 @@ class MonitorWindow:
         self._apply_config()
 
     def _open_settings(self):
-        SettingsWindow(self.root, self.config, self._apply_config, self.i18n)
+        try:
+            self.menu.unpost()
+            self.menu.grab_release()
+        except Exception:
+            pass
+        self._settings_open = True
+        settings_win = SettingsWindow(self.root, self.config, self._apply_config, self.i18n)
+        def on_settings_close():
+            self._settings_open = False
+        settings_win.bind("<Destroy>", lambda e: on_settings_close() if e.widget is settings_win else None)
 
     def _apply_config(self):
         new_language = self.config.get("language")
