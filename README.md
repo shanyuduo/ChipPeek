@@ -5,11 +5,11 @@
 ### Lightweight Windows Hardware Monitoring Floating Widget
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
-[![Platform: Windows](https://img.shields.io/badge/Platform-Windows-10%2F11-0078D4.svg)](https://github.com/Glimmer114514/ChipPeek)
+[![Platform: Windows](https://img.shields.io/badge/Platform-Windows-10%2F11-0078D4.svg)](https://github.com/shanyuduo/ChipPeek)
 [![Languages: 100+](https://img.shields.io/badge/Languages-100%2B-green.svg)](#multi-language-support)
 [![Python: 3.x](https://img.shields.io/badge/Python-3.x-3776AB.svg)](https://www.python.org/)
-[![Stars](https://img.shields.io/github/stars/Glimmer114514/ChipPeek?style=social)](https://github.com/Glimmer114514/ChipPeek/stargazers)
-[![Releases](https://img.shields.io/github/v/release/Glimmer114514/ChipPeek)](https://github.com/Glimmer114514/ChipPeek/releases)
+[![Stars](https://img.shields.io/github/stars/shanyuduo/ChipPeek?style=social)](https://github.com/shanyuduo/ChipPeek/stargazers)
+[![Releases](https://img.shields.io/github/v/release/shanyuduo/ChipPeek)](https://github.com/shanyuduo/ChipPeek/releases)
 
 A lightweight, open-source **CPU / GPU temperature and frequency monitor** for Windows. \
 Real-time hardware stats in a tiny always-on-top floating widget — works even over fullscreen games.
@@ -84,7 +84,7 @@ ChipPeek is perfect for gamers, developers, and PC enthusiasts who want a **no-n
 
 ### Option 1: Download EXE (Recommended)
 
-1. Go to [Releases](https://github.com/Glimmer114514/ChipPeek/releases)
+1. Go to [Releases](https://github.com/shanyuduo/ChipPeek/releases)
 2. Download `ChipPeek.exe`
 3. Double-click to run (will automatically request admin privileges for CPU temperature and accurate frequency reading)
 
@@ -92,7 +92,7 @@ ChipPeek is perfect for gamers, developers, and PC enthusiasts who want a **no-n
 
 ```bash
 # Clone the repository
-git clone https://github.com/Glimmer114514/ChipPeek.git
+git clone https://github.com/shanyuduo/ChipPeek.git
 cd ChipPeek
 
 # Install dependencies
@@ -385,7 +385,7 @@ Contributions are welcome! Whether it's a bug report, feature suggestion, transl
 
 ### How to Contribute
 
-1. **Bug reports / Feature requests**: Open an [Issue](https://github.com/Glimmer114514/ChipPeek/issues)
+1. **Bug reports / Feature requests**: Open an [Issue](https://github.com/shanyuduo/ChipPeek/issues)
 2. **Translations**: Edit or add JSON files in the `i18n/` folder, then run `python _validate_all_langs.py` to validate
 3. **Code**: Fork the repo, make your changes, and submit a Pull Request
 
@@ -417,10 +417,10 @@ This project is licensed under the MIT License — see the [LICENSE](LICENSE) fi
 
 ## Developer
 
-**R41NH4RD**
+**shanyuduo**
 
-- GitHub: [@Glimmer114514](https://github.com/Glimmer114514)
-- Project URL: [https://github.com/Glimmer114514/ChipPeek](https://github.com/Glimmer114514/ChipPeek)
+- GitHub: [@shanyuduo](https://github.com/shanyuduo)
+- Project URL: [https://github.com/shanyuduo/ChipPeek](https://github.com/shanyuduo/ChipPeek)
 
 ---
 
@@ -428,7 +428,7 @@ This project is licensed under the MIT License — see the [LICENSE](LICENSE) fi
 
 ### Star History
 
-[![Star History Chart](https://api.star-history.com/svg?repos=Glimmer114514/ChipPeek&type=Date)](https://star-history.com/#Glimmer114514/ChipPeek&Date)
+[![Star History Chart](https://api.star-history.com/svg?repos=shanyuduo/ChipPeek&type=Date)](https://star-history.com/#shanyuduo/ChipPeek&Date)
 
 If you find ChipPeek useful, please consider giving it a star!
 
