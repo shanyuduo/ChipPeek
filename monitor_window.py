@@ -16,7 +16,7 @@ except ImportError:
 
 APP_NAME = "ChipPeek"
 APP_DISPLAY_NAME = "ChipPeek 硬件监控"
-APP_VERSION = "1.1.0"
+APP_VERSION = "1.3.0"
 APP_DEVELOPER = "shanyuduo"
 APP_GITHUB = "https://github.com/shanyuduo/ChipPeek"
 APP_LICENSE = "MIT License"
