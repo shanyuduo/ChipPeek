@@ -1,18 +1,18 @@
 # ChipPeek
 
-Windows için hafif bir kayan donanım izleme widget'ı. CPU/GPU frekansı, sıcaklık, VRAM ve bellek kullanımının gerçek zamanlı izlenmesi, tam ekran uygulamalar dahil her zaman en üstte görünür.
+Windows için hafif bir kayan donanım izleme widget'ı.
 
-> **Diğer Diller**: [简体中文](README_zh-CN.md) | [繁體中文](README_zh-TW.md) | [English](README_en.md) | [日本語](README_ja.md) | [한국어](README_ko.md) | [Español](README_es.md) | [Français](README_fr.md) | [Deutsch](README_de.md) | [Português](README_pt.md) | [Русский](README_ru.md) | [العربية](README_ar.md) | [ไทย](README_th.md) | [Tiếng Việt](README_vi.md) | [Bahasa Indonesia](README_id.md) | **Türkçe** | [Italiano](README_it.md) | [Nederlands](README_nl.md) | [Polski](README_pl.md) | [हिन्दी](README_hi.md) | [বাংলা](README_bn.md) | [Svenska](README_sv.md) | [Norsk](README_no.md) | [Dansk](README_da.md) | [Suomi](README_fi.md) | [Čeština](README_cs.md) | [Ελληνικά](README_el.md) | [Magyar](README_hu.md) | [Română](README_ro.md) | [Українська](README_uk.md) | [Slovenčina](README_sk.md) | [Български](README_bg.md) | [Hrvatski](README_hr.md) | [Српски](README_sr.md) | [Català](README_ca.md) | [Slovenščina](README_sl.md) | [Eesti](README_et.md) | [Latviešu](README_lv.md) | [Lietuvių](README_lt.md) | [فارسی](README_fa.md) | [Bahasa Melayu](README_ms.md) | [اردو](README_ur.md) | [தமிழ்](README_ta.md) | [తెలుగు](README_te.md) | [मराठी](README_mr.md) | [ગુજરાતી](README_gu.md) | [ਪੰਜਾਬੀ](README_pa.md) | [ಕನ್ನಡ](README_kn.md) | [മലയാളം](README_ml.md) | [Қазақша](README_kk.md) | [O'zbekcha](README_uz.md) | [עברית](README_he.md) | [မြန်မာဘာသာ](README_my.md) | [ភាសាខ្មែរ](README_km.md) | [ພາສາລາວ](README_lo.md) | [Kiswahili](README_sw.md) | [Afrikaans](README_af.md) | [አማርኛ](README_am.md) | [isiZulu](README_zu.md) | [Filipino](README_fil.md) | [Gaeilge](README_ga.md) | [Íslenska](README_is.md) | [Malti](README_mt.md) | [Cymraeg](README_cy.md) | [Euskara](README_eu.md) | [Galego](README_gl.md) | [नेपाली](README_ne.md) | [සිංහල](README_si.md) | [ქართული](README_ka.md) | [Հայերեն](README_hy.md) | [Македонски](README_mk.md) | [Беларуская](README_be.md) | [ייִדיש](README_yi.md) | [Lëtzebuergesch](README_lb.md) | [Esperanto](README_eo.md) | [Føroyskt](README_fo.md) | [Gàidhlig](README_gd.md) | [Brezhoneg](README_br.md) | [Corsu](README_co.md) | [Rumantsch](README_rm.md) | [Occitan](README_oc.md) | [Asturianu](README_ast.md) | [Frysk](README_fy.md) | [Татарча](README_tt.md) | [Башҡортса](README_ba.md) | [Basa Jawa](README_jv.md) | [Basa Sunda](README_su.md) | [Cebuano](README_ceb.md) | [བོད་སྐད](README_bo.md) | [Kurdî](README_ku.md) | [پښتو](README_ps.md) | [سنڌي](README_sd.md) | [Тоҷикӣ](README_tg.md) | [Türkmen](README_tk.md) | [Кыргызча](README_ky.md) | [Монгол](README_mn.md) | [Hausa](README_ha.md) | [Igbo](README_ig.md) | [Yorùbá](README_yo.md) | [isiXhosa](README_xh.md) | [Malagasy](README_mg.md) | [chiShona](README_sn.md) | [Kinyarwanda](README_rw.md) | [Soomaali](README_so.md)
+> **Diğer Diller**: [简体中文](README_zh-CN.md) | [繁體中文](README_zh-TW.md) | [English](README_en.md) | [日本語](README_ja.md) | [한국어](README_ko.md) | [Español](README_es.md) | [Français](README_fr.md) | [Deutsch](README_de.md) | [Português](README_pt.md) | [Русский](README_ru.md) | [العربية](README_ar.md) | [ไทย](README_th.md) | [Tiếng Việt](README_vi.md) | [Bahasa Indonesia](README_id.md) | **Türkçe** | [Italiano](README_it.md) | [Nederlands](README_nl.md) | [Polski](README_pl.md) | [हिन्दी](README_hi.md) | [বাংলা](README_bn.md) | [Svenska](README_sv.md) | [Norsk](README_no.md) | [Dansk](README_da.md) | [Suomi](README_fi.md) | [Čeština](README_cs.md) | [Ελληνικά](README_el.md) | [Magyar](README_hu.md) | [Română](README_ro.md) | [Українська](README_uk.md) | [Slovenčina](README_sk.md) | [Български](README_bg.md) | [Hrvatski](README_hr.md) | [Српски](README_sr.md) | [Català](README_ca.md) | [Slovenščina](README_sl.md) | [Eesti](README_et.md) | [Latviešu](README_lv.md) | [Lietuvių](README_lt.md) | [فارسی](README_fa.md) | [Bahasa Melayu](README_ms.md) | [اردو](README_ur.md) | [தமிழ்](README_ta.md) | [తెలుగు](README_te.md) | [मराठी](README_mr.md) | [ગુજરાતી](README_gu.md) | [ਪੰਜਾਬੀ](README_pa.md) | [ಕನ್ನಡ](README_kn.md) | [മലയാളം](README_ml.md) | [Қазақ](README_kk.md) | [O'zbek](README_uz.md) | [עברית](README_he.md) | [မြန်မာ](README_my.md) | [ខ្មែរ](README_km.md) | [ລາວ](README_lo.md) | [Kiswahili](README_sw.md) | [Afrikaans](README_af.md) | [አማርኛ](README_am.md) | [isiZulu](README_zu.md) | [Filipino](README_fil.md) | [Gaeilge](README_ga.md) | [Íslenska](README_is.md) | [Malti](README_mt.md) | [Cymraeg](README_cy.md) | [Euskara](README_eu.md) | [Galego](README_gl.md) | [नेपाली](README_ne.md) | [සිංහල](README_si.md) | [ქართული](README_ka.md) | [Հայերեն](README_hy.md) | [Македонски](README_mk.md) | [Беларуская](README_be.md) | [ייִדיש](README_yi.md) | [Lëtzebuergesch](README_lb.md) | [Esperanto](README_eo.md) | [Føroyskt](README_fo.md) | [Gàidhlig](README_gd.md) | [Brezhoneg](README_br.md) | [Corsu](README_co.md) | [Rumantsch](README_rm.md) | [Occitan](README_oc.md) | [Asturianu](README_ast.md) | [Frysk](README_fy.md) | [Татарча](README_tt.md) | [Башҡортса](README_ba.md) | [Basa Jawa](README_jv.md) | [Basa Sunda](README_su.md) | [Cebuano](README_ceb.md) | [བོད་སྐད](README_bo.md) | [Kurdî](README_ku.md) | [پښتو](README_ps.md) | [سنڌي](README_sd.md) | [Тоҷикӣ](README_tg.md) | [Türkmen](README_tk.md) | [Кыргызча](README_ky.md) | [Монгол](README_mn.md) | [Hausa](README_ha.md) | [Igbo](README_ig.md) | [Yorùbá](README_yo.md) | [isiXhosa](README_xh.md) | [Malagasy](README_mg.md) | [chiShona](README_sn.md) | [Kinyarwanda](README_rw.md) | [Soomaali](README_so.md)
 
 ## Özellikler
 
 - **Gerçek zamanlı izleme**: CPU frekansı, CPU sıcaklığı, GPU frekansı, GPU sıcaklığı, VRAM kullanımı, bellek kullanımı
 - **İki görüntüleme modu**: Köşe widget'ı / üst çubuk, tek tıkla geçiş
 - **Özelleştirilebilir görüntüleme**: Hangi metriklerin gösterileceğini serbestçe seçin, yüzde/gerçek değerler arasında geçiş yapın
-- **Her zaman en üstte**: Tüm pencerelerin üzerinde kalır, tam ekran oyunlarda çalışır
+- **Her zaman en üstte**: Tüm pencerelerin üzerinde kalır. Tam ekranda görünürlük uygulamaya ve görüntü moduna bağlıdır
 - **Otomatik boyut**: Pencere genişliği içeriğe göre otomatik olarak ayarlanır
 - **Ayarlanabilir stil**: Pencere opaklığı, arka plan şeffaflığı, yazı tipi boyutu - hepsi ayarlanabilir
-- **Çok dilli destek**: 20+ dil, sistem dilini otomatik olarak algılar
+- **Çok dilli destek**: 103 dil, sistem dilini otomatik olarak algılar
 - **Kullanışlı çalıştırma**: Taşımak için sol tıkla sürükleyin, hızlı ayarlar için sağ tık menüsü, ekran kenarlarına otomatik yapışma
 - **Yapılandırılabilir örnekleme**: 200ms - 3000ms ayarlanabilir
 - **Otomatik başlatma**: Windows oturum açmada otomatik olarak başlar
@@ -22,17 +22,17 @@ Windows için hafif bir kayan donanım izleme widget'ı. CPU/GPU frekansı, sıc
 
 ### Doğrudan Kullanım
 
-`ChipPeek.exe` dosyasını indirin ve çalıştırmak için çift tıklayın (CPU sıcaklığı ve doğru frekans okuması için otomatik olarak yönetici izni isteyecektir).
+[`ChipPeek.exe`](https://github.com/shanyuduo/ChipPeek/releases/latest) dosyasını indirin ve çalıştırmak için çift tıklayın (CPU sıcaklığı ve doğru frekans okuması için otomatik olarak yönetici izni isteyecektir).
 
 ### Kaynak Koddan Çalıştırma
 
-```bash
+```powershell
 # Depoyu klonlayın
-git clone https://github.com/Glimmer114514/ChipPeek.git
+git clone https://github.com/shanyuduo/ChipPeek.git
 cd ChipPeek
 
 # Bağımlılıkları yükleyin
-pip install -r requirements.txt
+python -m pip install -r requirements.txt pythonnet
 
 # Çalıştır
 python main.py
@@ -43,12 +43,13 @@ python main.py
 - Windows 10 / Windows 11
 - Yönetici izinleri (önerilir), aksi takdirde CPU sıcaklığı ve doğru frekans kullanılamayabilir
 - .NET Framework 4.7.2 veya üstü (LibreHardwareMonitor tarafından gerekli)
+- Python 3 + Tkinter (Kaynak Koddan Çalıştırma)
 
 ## EXE Olarak Derleme
 
-```bash
-pip install pyinstaller
-pyinstaller --noconfirm --onefile --windowed --name "ChipPeek" --icon "app.ico" --manifest "admin.manifest" --add-data "libs;libs" --add-data "app.ico;." --hidden-import "clr" --hidden-import "pynvml" --hidden-import "win32gui" --hidden-import "win32con" main.py
+```powershell
+python -m pip install -r requirements.txt pythonnet pyinstaller
+python -m PyInstaller --noconfirm --onefile --windowed --name "ChipPeek" --icon "app.ico" --manifest "admin.manifest" --add-data "libs;libs" --add-data "app.ico;." --add-data "i18n;i18n" --hidden-import "clr" --hidden-import "pynvml" --hidden-import "win32gui" --hidden-import "win32con" main.py
 ```
 
 Derlemeden sonra, EXE dosyası `dist/ChipPeek.exe` konumunda bulunur.
@@ -72,11 +73,11 @@ Derlemeden sonra, EXE dosyası `dist/ChipPeek.exe` konumunda bulunur.
 
 - **Görüntüleme modu**: köşe widget'ı / üst çubuk
 - **Widget konumu**: sağ alt / sol alt / sağ üst / sol üst
-- **Pencere opaklığı**: %30 - %100 genel pencere şeffaflığı
-- **Arka plan şeffaflığı**: %0 - %100 arka plan şeffaf (metin net kalır)
+- **Pencere opaklığı**: 0% - 100% kaydırıcısı, 100% - 15% pencere opaklığına karşılık gelir
+- **Arka plan şeffaflığı**: 0 arka planı opak tutar; 0 üzerindeki her değer arka planı saydam yapar
 - **Örnekleme aralığı**: 200ms - 3000ms veri yenileme hızı
 - **Yazı tipi boyutu**: 8 - 20 punto yazı tipi
-- **Dil**: 20+ dil, sistem dilini otomatik olarak algılar
+- **Dil**: 103 dil, sistem dilini otomatik olarak algılar
 - **Görüntüleme metrikleri**: her metriği bağımsız olarak aç/kapat
 - **Görüntüleme biçimi**: VRAM / Bellek yüzde veya gerçek değerler arasında geçiş yapabilir
 - **Otomatik başlatma**: Windows oturum açmada otomatik olarak çalıştır
@@ -97,11 +98,13 @@ ChipPeek/
 ├── hardware_monitor.py      # Donanım veri toplama
 ├── config.py                # Yapılandırma yönetimi
 ├── i18n.py                  # Uluslararasılaştırma
+├── generate_docs.py
 ├── generate_icon.py         # Simge oluşturma betiği
 ├── admin.manifest           # UAC yönetici izni bildirimi
 ├── app.ico                  # Uygulama simgesi
-├── app.png                  # Simge önizlemesi
+├── logo.png
 ├── requirements.txt         # Python bağımlılıkları
+├── build.bat
 ├── docs/                    # Çok dilli belgeler
 │   └── README_*.md
 ├── i18n/                    # Çeviri dosyaları
@@ -115,18 +118,18 @@ ChipPeek/
 
 ## Yapılandırma Dosyası
 
-`config.json` dosyası EXE ile aynı dizinde kaydedilir ve tüm ayarlanabilir ayarları içerir. Ayarlar değiştirildiğinde otomatik olarak kaydedilir.
+`config.json` dosyası `ChipPeek.exe` / `main.py` ile aynı dizinde kaydedilir ve tüm ayarlanabilir ayarları içerir. Ayarlar değiştirildiğinde otomatik olarak kaydedilir.
 
 ## Lisans
 
-MIT License
+[MIT License](../LICENSE)
 
 ## Geliştirici
 
-**R41NH4RD**
+**shanyuduo**
 
-- GitHub: [@R41NH4RD](https://github.com/Glimmer114514)
-- Proje URL'si: [https://github.com/Glimmer114514/ChipPeek](https://github.com/Glimmer114514/ChipPeek)
+- GitHub: [@shanyuduo](https://github.com/shanyuduo)
+- Proje URL'si: [https://github.com/shanyuduo/ChipPeek](https://github.com/shanyuduo/ChipPeek)
 
 ## Teşekkürler
 

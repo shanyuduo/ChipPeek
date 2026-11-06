@@ -1,18 +1,18 @@
 # ChipPeek
 
-Um widget flutuante leve de monitoramento de hardware para Windows. Monitoramento em tempo real de frequência CPU/GPU, temperatura, VRAM e uso de memória, sempre visível inclusive em aplicativos de tela cheia.
+Um widget flutuante leve de monitoramento de hardware para Windows.
 
-> **Outros idiomas**: [简体中文](README_zh-CN.md) | [繁體中文](README_zh-TW.md) | [English](README_en.md) | [日本語](README_ja.md) | [한국어](README_ko.md) | [Español](README_es.md) | [Français](README_fr.md) | [Deutsch](README_de.md) | **Português** | [Русский](README_ru.md) | [العربية](README_ar.md) | [ไทย](README_th.md) | [Tiếng Việt](README_vi.md) | [Bahasa Indonesia](README_id.md) | [Türkçe](README_tr.md) | [Italiano](README_it.md) | [Nederlands](README_nl.md) | [Polski](README_pl.md) | [हिन्दी](README_hi.md) | [বাংলা](README_bn.md) | [Svenska](README_sv.md) | [Norsk](README_no.md) | [Dansk](README_da.md) | [Suomi](README_fi.md) | [Čeština](README_cs.md) | [Ελληνικά](README_el.md) | [Magyar](README_hu.md) | [Română](README_ro.md) | [Українська](README_uk.md) | [Slovenčina](README_sk.md) | [Български](README_bg.md) | [Hrvatski](README_hr.md) | [Српски](README_sr.md) | [Català](README_ca.md) | [Slovenščina](README_sl.md) | [Eesti](README_et.md) | [Latviešu](README_lv.md) | [Lietuvių](README_lt.md) | [فارسی](README_fa.md) | [Bahasa Melayu](README_ms.md) | [اردو](README_ur.md) | [தமிழ்](README_ta.md) | [తెలుగు](README_te.md) | [मराठी](README_mr.md) | [ગુજરાતી](README_gu.md) | [ਪੰਜਾਬੀ](README_pa.md) | [ಕನ್ನಡ](README_kn.md) | [മലയാളം](README_ml.md) | [Қазақша](README_kk.md) | [O'zbekcha](README_uz.md) | [עברית](README_he.md) | [မြန်မာဘာသာ](README_my.md) | [ភាសាខ្មែរ](README_km.md) | [ພາສາລາວ](README_lo.md) | [Kiswahili](README_sw.md) | [Afrikaans](README_af.md) | [አማርኛ](README_am.md) | [isiZulu](README_zu.md) | [Filipino](README_fil.md) | [Gaeilge](README_ga.md) | [Íslenska](README_is.md) | [Malti](README_mt.md) | [Cymraeg](README_cy.md) | [Euskara](README_eu.md) | [Galego](README_gl.md) | [नेपाली](README_ne.md) | [සිංහල](README_si.md) | [ქართული](README_ka.md) | [Հայերեն](README_hy.md) | [Македонски](README_mk.md) | [Беларуская](README_be.md) | [ייִדיש](README_yi.md) | [Lëtzebuergesch](README_lb.md) | [Esperanto](README_eo.md) | [Føroyskt](README_fo.md) | [Gàidhlig](README_gd.md) | [Brezhoneg](README_br.md) | [Corsu](README_co.md) | [Rumantsch](README_rm.md) | [Occitan](README_oc.md) | [Asturianu](README_ast.md) | [Frysk](README_fy.md) | [Татарча](README_tt.md) | [Башҡортса](README_ba.md) | [Basa Jawa](README_jv.md) | [Basa Sunda](README_su.md) | [Cebuano](README_ceb.md) | [བོད་སྐད](README_bo.md) | [Kurdî](README_ku.md) | [پښتو](README_ps.md) | [سنڌي](README_sd.md) | [Тоҷикӣ](README_tg.md) | [Türkmen](README_tk.md) | [Кыргызча](README_ky.md) | [Монгол](README_mn.md) | [Hausa](README_ha.md) | [Igbo](README_ig.md) | [Yorùbá](README_yo.md) | [isiXhosa](README_xh.md) | [Malagasy](README_mg.md) | [chiShona](README_sn.md) | [Kinyarwanda](README_rw.md) | [Soomaali](README_so.md)
+> **Outros idiomas**: [简体中文](README_zh-CN.md) | [繁體中文](README_zh-TW.md) | [English](README_en.md) | [日本語](README_ja.md) | [한국어](README_ko.md) | [Español](README_es.md) | [Français](README_fr.md) | [Deutsch](README_de.md) | **Português** | [Русский](README_ru.md) | [العربية](README_ar.md) | [ไทย](README_th.md) | [Tiếng Việt](README_vi.md) | [Bahasa Indonesia](README_id.md) | [Türkçe](README_tr.md) | [Italiano](README_it.md) | [Nederlands](README_nl.md) | [Polski](README_pl.md) | [हिन्दी](README_hi.md) | [বাংলা](README_bn.md) | [Svenska](README_sv.md) | [Norsk](README_no.md) | [Dansk](README_da.md) | [Suomi](README_fi.md) | [Čeština](README_cs.md) | [Ελληνικά](README_el.md) | [Magyar](README_hu.md) | [Română](README_ro.md) | [Українська](README_uk.md) | [Slovenčina](README_sk.md) | [Български](README_bg.md) | [Hrvatski](README_hr.md) | [Српски](README_sr.md) | [Català](README_ca.md) | [Slovenščina](README_sl.md) | [Eesti](README_et.md) | [Latviešu](README_lv.md) | [Lietuvių](README_lt.md) | [فارسی](README_fa.md) | [Bahasa Melayu](README_ms.md) | [اردو](README_ur.md) | [தமிழ்](README_ta.md) | [తెలుగు](README_te.md) | [मराठी](README_mr.md) | [ગુજરાતી](README_gu.md) | [ਪੰਜਾਬੀ](README_pa.md) | [ಕನ್ನಡ](README_kn.md) | [മലയാളം](README_ml.md) | [Қазақ](README_kk.md) | [O'zbek](README_uz.md) | [עברית](README_he.md) | [မြန်မာ](README_my.md) | [ខ្មែរ](README_km.md) | [ລາວ](README_lo.md) | [Kiswahili](README_sw.md) | [Afrikaans](README_af.md) | [አማርኛ](README_am.md) | [isiZulu](README_zu.md) | [Filipino](README_fil.md) | [Gaeilge](README_ga.md) | [Íslenska](README_is.md) | [Malti](README_mt.md) | [Cymraeg](README_cy.md) | [Euskara](README_eu.md) | [Galego](README_gl.md) | [नेपाली](README_ne.md) | [සිංහල](README_si.md) | [ქართული](README_ka.md) | [Հայերեն](README_hy.md) | [Македонски](README_mk.md) | [Беларуская](README_be.md) | [ייִדיש](README_yi.md) | [Lëtzebuergesch](README_lb.md) | [Esperanto](README_eo.md) | [Føroyskt](README_fo.md) | [Gàidhlig](README_gd.md) | [Brezhoneg](README_br.md) | [Corsu](README_co.md) | [Rumantsch](README_rm.md) | [Occitan](README_oc.md) | [Asturianu](README_ast.md) | [Frysk](README_fy.md) | [Татарча](README_tt.md) | [Башҡортса](README_ba.md) | [Basa Jawa](README_jv.md) | [Basa Sunda](README_su.md) | [Cebuano](README_ceb.md) | [བོད་སྐད](README_bo.md) | [Kurdî](README_ku.md) | [پښتو](README_ps.md) | [سنڌي](README_sd.md) | [Тоҷикӣ](README_tg.md) | [Türkmen](README_tk.md) | [Кыргызча](README_ky.md) | [Монгол](README_mn.md) | [Hausa](README_ha.md) | [Igbo](README_ig.md) | [Yorùbá](README_yo.md) | [isiXhosa](README_xh.md) | [Malagasy](README_mg.md) | [chiShona](README_sn.md) | [Kinyarwanda](README_rw.md) | [Soomaali](README_so.md)
 
 ## Recursos
 
 - **Monitoramento em tempo real**: frequência CPU, temperatura CPU, frequência GPU, temperatura GPU, uso de VRAM, uso de memória
 - **Modos de exibição duplos**: widget de canto / barra superior, alternância com um clique
 - **Exibição personalizável**: escolha livremente quais métricas mostrar, alterne entre porcentagem/valores reais
-- **Sempre visível**: fica acima de todas as janelas, funciona em jogos de tela cheia
+- **Sempre visível**: fica acima de todas as janelas. A visibilidade em tela cheia depende do aplicativo e do modo de exibição
 - **Dimensionamento automático**: a largura da janela se ajusta automaticamente ao conteúdo
 - **Estilo ajustável**: opacidade da janela, transparência do fundo, tamanho da fonte - tudo ajustável
-- **Suporte multilíngue**: mais de 20 idiomas, detecta automaticamente o idioma do sistema
+- **Suporte multilíngue**: 103 idiomas, detecta automaticamente o idioma do sistema
 - **Operação conveniente**: arraste com clique esquerdo para mover, menu de clique direito para configurações rápidas, encaixe automático nas bordas da tela
 - **Amostragem configurável**: 200ms - 3000ms ajustável
 - **Inicialização automática**: inicia automaticamente no login do Windows
@@ -22,17 +22,17 @@ Um widget flutuante leve de monitoramento de hardware para Windows. Monitorament
 
 ### Uso direto
 
-Baixe `ChipPeek.exe` e dê dois cliques para executar (solicitará automaticamente privilégios de administrador para temperatura da CPU e leitura precisa de frequência).
+Baixe [`ChipPeek.exe`](https://github.com/shanyuduo/ChipPeek/releases/latest) e dê dois cliques para executar (solicitará automaticamente privilégios de administrador para temperatura da CPU e leitura precisa de frequência).
 
 ### Executar do código-fonte
 
-```bash
+```powershell
 # Clonar o repositório
-git clone https://github.com/Glimmer114514/ChipPeek.git
+git clone https://github.com/shanyuduo/ChipPeek.git
 cd ChipPeek
 
 # Instalar dependências
-pip install -r requirements.txt
+python -m pip install -r requirements.txt pythonnet
 
 # Executar
 python main.py
@@ -43,12 +43,13 @@ python main.py
 - Windows 10 / Windows 11
 - Privilégios de administrador (recomendado), caso contrário a temperatura da CPU e a frequência precisa podem não estar disponíveis
 - .NET Framework 4.7.2 ou superior (requerido pelo LibreHardwareMonitor)
+- Python 3 + Tkinter (Executar do código-fonte)
 
 ## Compilar como EXE
 
-```bash
-pip install pyinstaller
-pyinstaller --noconfirm --onefile --windowed --name "ChipPeek" --icon "app.ico" --manifest "admin.manifest" --add-data "libs;libs" --add-data "app.ico;." --hidden-import "clr" --hidden-import "pynvml" --hidden-import "win32gui" --hidden-import "win32con" main.py
+```powershell
+python -m pip install -r requirements.txt pythonnet pyinstaller
+python -m PyInstaller --noconfirm --onefile --windowed --name "ChipPeek" --icon "app.ico" --manifest "admin.manifest" --add-data "libs;libs" --add-data "app.ico;." --add-data "i18n;i18n" --hidden-import "clr" --hidden-import "pynvml" --hidden-import "win32gui" --hidden-import "win32con" main.py
 ```
 
 Após a compilação, o arquivo EXE está localizado em `dist/ChipPeek.exe`.
@@ -72,11 +73,11 @@ Após a compilação, o arquivo EXE está localizado em `dist/ChipPeek.exe`.
 
 - **Modo de exibição**: widget de canto / barra superior
 - **Posição do widget**: inferior direito / inferior esquerdo / superior direito / superior esquerdo
-- **Opacidade da janela**: 30% - 100% de transparência geral da janela
-- **Transparência do fundo**: 0% - 100% de fundo transparente (o texto permanece nítido)
+- **Opacidade da janela**: O controle de 0% - 100% corresponde à opacidade da janela de 100% - 15%
+- **Transparência do fundo**: 0 mantém o fundo opaco; qualquer valor acima de 0 o torna transparente
 - **Intervalo de amostragem**: 200ms - 3000ms taxa de atualização de dados
 - **Tamanho da fonte**: fonte de 8 - 20 pontos
-- **Idioma**: mais de 20 idiomas, detecta automaticamente o idioma do sistema
+- **Idioma**: 103 idiomas, detecta automaticamente o idioma do sistema
 - **Métricas de exibição**: ative/desative cada métrica independentemente
 - **Formato de exibição**: VRAM / Memória podem alternar entre porcentagem ou valores reais
 - **Inicialização automática**: executar automaticamente ao fazer login no Windows
@@ -97,11 +98,13 @@ ChipPeek/
 ├── hardware_monitor.py      # Coleta de dados de hardware
 ├── config.py                # Gerenciamento de configuração
 ├── i18n.py                  # Internacionalização
+├── generate_docs.py
 ├── generate_icon.py         # Script de geração de ícones
 ├── admin.manifest           # Manifesto de privilégios de admin UAC
 ├── app.ico                  # Ícone do aplicativo
-├── app.png                  # Visualização do ícone
+├── logo.png
 ├── requirements.txt         # Dependências Python
+├── build.bat
 ├── docs/                    # Documentação multilíngue
 │   └── README_*.md
 ├── i18n/                    # Arquivos de tradução
@@ -115,18 +118,18 @@ ChipPeek/
 
 ## Arquivo de configuração
 
-O arquivo `config.json` é salvo no mesmo diretório que o EXE e contém todas as configurações ajustáveis. As configurações são salvas automaticamente quando modificadas.
+As configurações são salvas automaticamente em `config.json`, ao lado de `ChipPeek.exe` na versão compilada ou de `main.py` ao executar a partir do código-fonte.
 
 ## Licença
 
-MIT License
+[MIT License](../LICENSE)
 
 ## Desenvolvedor
 
-**R41NH4RD**
+**shanyuduo**
 
-- GitHub: [@R41NH4RD](https://github.com/Glimmer114514)
-- URL do projeto: [https://github.com/Glimmer114514/ChipPeek](https://github.com/Glimmer114514/ChipPeek)
+- GitHub: [@shanyuduo](https://github.com/shanyuduo)
+- URL do projeto: [https://github.com/shanyuduo/ChipPeek](https://github.com/shanyuduo/ChipPeek)
 
 ## Créditos
 
