@@ -6,13 +6,21 @@
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
 [![Platform: Windows](https://img.shields.io/badge/Platform-Windows-10%2F11-0078D4.svg)](https://github.com/shanyuduo/ChipPeek)
-[![Languages: 103](https://img.shields.io/badge/Languages-103-green.svg)](#multi-language-support)
+[![Languages: 103](https://img.shields.io/badge/Languages-103-green.svg)](#languages)
 [![Python: 3.x](https://img.shields.io/badge/Python-3.x-3776AB.svg)](https://www.python.org/)
 [![Stars](https://img.shields.io/github/stars/shanyuduo/ChipPeek?style=social)](https://github.com/shanyuduo/ChipPeek)
 [![Releases](https://img.shields.io/github/v/release/shanyuduo/ChipPeek)](https://github.com/shanyuduo/ChipPeek/releases)
 
 A lightweight, open-source **CPU / GPU temperature and frequency monitor** for Windows. \
 Real-time hardware stats in a tiny always-on-top desktop widget.
+
+</div>
+
+## Languages
+
+> **Other Languages**: [简体中文](docs/README_zh-CN.md) | [繁體中文](docs/README_zh-TW.md) | **English** | [日本語](docs/README_ja.md) | [한국어](docs/README_ko.md) | [Español](docs/README_es.md) | [Français](docs/README_fr.md) | [Deutsch](docs/README_de.md) | [Português](docs/README_pt.md) | [Русский](docs/README_ru.md) | [العربية](docs/README_ar.md) | [ไทย](docs/README_th.md) | [Tiếng Việt](docs/README_vi.md) | [Bahasa Indonesia](docs/README_id.md) | [Türkçe](docs/README_tr.md) | [Italiano](docs/README_it.md) | [Nederlands](docs/README_nl.md) | [Polski](docs/README_pl.md) | [हिन्दी](docs/README_hi.md) | [বাংলা](docs/README_bn.md) | [Svenska](docs/README_sv.md) | [Norsk](docs/README_no.md) | [Dansk](docs/README_da.md) | [Suomi](docs/README_fi.md) | [Čeština](docs/README_cs.md) | [Ελληνικά](docs/README_el.md) | [Magyar](docs/README_hu.md) | [Română](docs/README_ro.md) | [Українська](docs/README_uk.md) | [Slovenčina](docs/README_sk.md) | [Български](docs/README_bg.md) | [Hrvatski](docs/README_hr.md) | [Српски](docs/README_sr.md) | [Català](docs/README_ca.md) | [Slovenščina](docs/README_sl.md) | [Eesti](docs/README_et.md) | [Latviešu](docs/README_lv.md) | [Lietuvių](docs/README_lt.md) | [فارسی](docs/README_fa.md) | [Bahasa Melayu](docs/README_ms.md) | [اردو](docs/README_ur.md) | [தமிழ்](docs/README_ta.md) | [తెలుగు](docs/README_te.md) | [मराठी](docs/README_mr.md) | [ગુજરાતી](docs/README_gu.md) | [ਪੰਜਾਬੀ](docs/README_pa.md) | [ಕನ್ನಡ](docs/README_kn.md) | [മലയാളം](docs/README_ml.md) | [Қазақ](docs/README_kk.md) | [O'zbek](docs/README_uz.md) | [עברית](docs/README_he.md) | [မြန်မာ](docs/README_my.md) | [ខ្មែរ](docs/README_km.md) | [ລາວ](docs/README_lo.md) | [Kiswahili](docs/README_sw.md) | [Afrikaans](docs/README_af.md) | [አማርኛ](docs/README_am.md) | [isiZulu](docs/README_zu.md) | [Filipino](docs/README_fil.md) | [Gaeilge](docs/README_ga.md) | [Íslenska](docs/README_is.md) | [Malti](docs/README_mt.md) | [Cymraeg](docs/README_cy.md) | [Euskara](docs/README_eu.md) | [Galego](docs/README_gl.md) | [नेपाली](docs/README_ne.md) | [සිංහල](docs/README_si.md) | [ქართული](docs/README_ka.md) | [Հայերեն](docs/README_hy.md) | [Македонски](docs/README_mk.md) | [Беларуская](docs/README_be.md) | [ייִדיש](docs/README_yi.md) | [Lëtzebuergesch](docs/README_lb.md) | [Esperanto](docs/README_eo.md) | [Føroyskt](docs/README_fo.md) | [Gàidhlig](docs/README_gd.md) | [Brezhoneg](docs/README_br.md) | [Corsu](docs/README_co.md) | [Rumantsch](docs/README_rm.md) | [Occitan](docs/README_oc.md) | [Asturianu](docs/README_ast.md) | [Frysk](docs/README_fy.md) | [Татарча](docs/README_tt.md) | [Башҡортса](docs/README_ba.md) | [Basa Jawa](docs/README_jv.md) | [Basa Sunda](docs/README_su.md) | [Cebuano](docs/README_ceb.md) | [བོད་སྐད](docs/README_bo.md) | [Kurdî](docs/README_ku.md) | [پښتو](docs/README_ps.md) | [سنڌي](docs/README_sd.md) | [Тоҷикӣ](docs/README_tg.md) | [Türkmen](docs/README_tk.md) | [Кыргызча](docs/README_ky.md) | [Монгол](docs/README_mn.md) | [Hausa](docs/README_ha.md) | [Igbo](docs/README_ig.md) | [Yorùbá](docs/README_yo.md) | [isiXhosa](docs/README_xh.md) | [Malagasy](docs/README_mg.md) | [chiShona](docs/README_sn.md) | [Kinyarwanda](docs/README_rw.md) | [Soomaali](docs/README_so.md)
+
+<div align="center">
 
 ![ChipPeek Logo](logo.png)
 
@@ -32,6 +40,7 @@ No bloat, no ads, no telemetry — just a clean, customizable overlay powered by
 
 ## Table of Contents
 
+- [Languages](#languages)
 - [Why ChipPeek?](#why-chippeek)
 - [Features](#features)
 - [Quick Start](#quick-start)
@@ -204,8 +213,6 @@ ChipPeek/
 ## Multi-language Support
 
 ChipPeek includes **103 UI languages and 103 localized READMEs**. The available languages are registered in `i18n.py`, with UI translations in `i18n/*.json` and localized documentation in `docs/README_*.md`.
-
-> **Other Languages**: [简体中文](docs/README_zh-CN.md) | [繁體中文](docs/README_zh-TW.md) | **English** | [日本語](docs/README_ja.md) | [한국어](docs/README_ko.md) | [Español](docs/README_es.md) | [Français](docs/README_fr.md) | [Deutsch](docs/README_de.md) | [Português](docs/README_pt.md) | [Русский](docs/README_ru.md) | [العربية](docs/README_ar.md) | [ไทย](docs/README_th.md) | [Tiếng Việt](docs/README_vi.md) | [Bahasa Indonesia](docs/README_id.md) | [Türkçe](docs/README_tr.md) | [Italiano](docs/README_it.md) | [Nederlands](docs/README_nl.md) | [Polski](docs/README_pl.md) | [हिन्दी](docs/README_hi.md) | [বাংলা](docs/README_bn.md) | [Svenska](docs/README_sv.md) | [Norsk](docs/README_no.md) | [Dansk](docs/README_da.md) | [Suomi](docs/README_fi.md) | [Čeština](docs/README_cs.md) | [Ελληνικά](docs/README_el.md) | [Magyar](docs/README_hu.md) | [Română](docs/README_ro.md) | [Українська](docs/README_uk.md) | [Slovenčina](docs/README_sk.md) | [Български](docs/README_bg.md) | [Hrvatski](docs/README_hr.md) | [Српски](docs/README_sr.md) | [Català](docs/README_ca.md) | [Slovenščina](docs/README_sl.md) | [Eesti](docs/README_et.md) | [Latviešu](docs/README_lv.md) | [Lietuvių](docs/README_lt.md) | [فارسی](docs/README_fa.md) | [Bahasa Melayu](docs/README_ms.md) | [اردو](docs/README_ur.md) | [தமிழ்](docs/README_ta.md) | [తెలుగు](docs/README_te.md) | [मराठी](docs/README_mr.md) | [ગુજરાતી](docs/README_gu.md) | [ਪੰਜਾਬੀ](docs/README_pa.md) | [ಕನ್ನಡ](docs/README_kn.md) | [മലയാളം](docs/README_ml.md) | [Қазақ](docs/README_kk.md) | [O'zbek](docs/README_uz.md) | [עברית](docs/README_he.md) | [မြန်မာ](docs/README_my.md) | [ខ្មែរ](docs/README_km.md) | [ລາວ](docs/README_lo.md) | [Kiswahili](docs/README_sw.md) | [Afrikaans](docs/README_af.md) | [አማርኛ](docs/README_am.md) | [isiZulu](docs/README_zu.md) | [Filipino](docs/README_fil.md) | [Gaeilge](docs/README_ga.md) | [Íslenska](docs/README_is.md) | [Malti](docs/README_mt.md) | [Cymraeg](docs/README_cy.md) | [Euskara](docs/README_eu.md) | [Galego](docs/README_gl.md) | [नेपाली](docs/README_ne.md) | [සිංහල](docs/README_si.md) | [ქართული](docs/README_ka.md) | [Հայերեն](docs/README_hy.md) | [Македонски](docs/README_mk.md) | [Беларуская](docs/README_be.md) | [ייִדיש](docs/README_yi.md) | [Lëtzebuergesch](docs/README_lb.md) | [Esperanto](docs/README_eo.md) | [Føroyskt](docs/README_fo.md) | [Gàidhlig](docs/README_gd.md) | [Brezhoneg](docs/README_br.md) | [Corsu](docs/README_co.md) | [Rumantsch](docs/README_rm.md) | [Occitan](docs/README_oc.md) | [Asturianu](docs/README_ast.md) | [Frysk](docs/README_fy.md) | [Татарча](docs/README_tt.md) | [Башҡортса](docs/README_ba.md) | [Basa Jawa](docs/README_jv.md) | [Basa Sunda](docs/README_su.md) | [Cebuano](docs/README_ceb.md) | [བོད་སྐད](docs/README_bo.md) | [Kurdî](docs/README_ku.md) | [پښتو](docs/README_ps.md) | [سنڌي](docs/README_sd.md) | [Тоҷикӣ](docs/README_tg.md) | [Türkmen](docs/README_tk.md) | [Кыргызча](docs/README_ky.md) | [Монгол](docs/README_mn.md) | [Hausa](docs/README_ha.md) | [Igbo](docs/README_ig.md) | [Yorùbá](docs/README_yo.md) | [isiXhosa](docs/README_xh.md) | [Malagasy](docs/README_mg.md) | [chiShona](docs/README_sn.md) | [Kinyarwanda](docs/README_rw.md) | [Soomaali](docs/README_so.md)
 
 Want to add or improve a translation? See [Contributing](#contributing).
 
