@@ -1,18 +1,18 @@
 # ChipPeek
 
-軽量なWindowsハードウェアモニタリングツール。CPU/GPUの周波数、温度、VRAM、メモリ使用率をリアルタイムで監視し、フルスクリーンアプリでも最前面に表示されます。
+軽量なWindowsハードウェアモニタリングツール。
 
-> **他の言語**: [简体中文](README_zh-CN.md) | [繁體中文](README_zh-TW.md) | [English](README_en.md) | **日本語** | [한국어](README_ko.md) | [Español](README_es.md) | [Français](README_fr.md) | [Deutsch](README_de.md) | [Português](README_pt.md) | [Русский](README_ru.md) | [العربية](README_ar.md) | [ไทย](README_th.md) | [Tiếng Việt](README_vi.md) | [Bahasa Indonesia](README_id.md) | [Türkçe](README_tr.md) | [Italiano](README_it.md) | [Nederlands](README_nl.md) | [Polski](README_pl.md) | [हिन्दी](README_hi.md) | [বাংলা](README_bn.md) | [Svenska](README_sv.md) | [Norsk](README_no.md) | [Dansk](README_da.md) | [Suomi](README_fi.md) | [Čeština](README_cs.md) | [Ελληνικά](README_el.md) | [Magyar](README_hu.md) | [Română](README_ro.md) | [Українська](README_uk.md) | [Slovenčina](README_sk.md) | [Български](README_bg.md) | [Hrvatski](README_hr.md) | [Српски](README_sr.md) | [Català](README_ca.md) | [Slovenščina](README_sl.md) | [Eesti](README_et.md) | [Latviešu](README_lv.md) | [Lietuvių](README_lt.md) | [فارسی](README_fa.md) | [Bahasa Melayu](README_ms.md) | [اردو](README_ur.md) | [தமிழ்](README_ta.md) | [తెలుగు](README_te.md) | [मराठी](README_mr.md) | [ગુજરાતી](README_gu.md) | [ਪੰਜਾਬੀ](README_pa.md) | [ಕನ್ನಡ](README_kn.md) | [മലയാളം](README_ml.md) | [Қазақша](README_kk.md) | [O'zbekcha](README_uz.md) | [עברית](README_he.md) | [မြန်မာဘာသာ](README_my.md) | [ភាសាខ្មែរ](README_km.md) | [ພາສາລາວ](README_lo.md) | [Kiswahili](README_sw.md) | [Afrikaans](README_af.md) | [አማርኛ](README_am.md) | [isiZulu](README_zu.md) | [Filipino](README_fil.md) | [Gaeilge](README_ga.md) | [Íslenska](README_is.md) | [Malti](README_mt.md) | [Cymraeg](README_cy.md) | [Euskara](README_eu.md) | [Galego](README_gl.md) | [नेपाली](README_ne.md) | [සිංහල](README_si.md) | [ქართული](README_ka.md) | [Հայերեն](README_hy.md) | [Македонски](README_mk.md) | [Беларуская](README_be.md) | [ייִדיש](README_yi.md) | [Lëtzebuergesch](README_lb.md) | [Esperanto](README_eo.md) | [Føroyskt](README_fo.md) | [Gàidhlig](README_gd.md) | [Brezhoneg](README_br.md) | [Corsu](README_co.md) | [Rumantsch](README_rm.md) | [Occitan](README_oc.md) | [Asturianu](README_ast.md) | [Frysk](README_fy.md) | [Татарча](README_tt.md) | [Башҡортса](README_ba.md) | [Basa Jawa](README_jv.md) | [Basa Sunda](README_su.md) | [Cebuano](README_ceb.md) | [བོད་སྐད](README_bo.md) | [Kurdî](README_ku.md) | [پښتو](README_ps.md) | [سنڌي](README_sd.md) | [Тоҷикӣ](README_tg.md) | [Türkmen](README_tk.md) | [Кыргызча](README_ky.md) | [Монгол](README_mn.md) | [Hausa](README_ha.md) | [Igbo](README_ig.md) | [Yorùbá](README_yo.md) | [isiXhosa](README_xh.md) | [Malagasy](README_mg.md) | [chiShona](README_sn.md) | [Kinyarwanda](README_rw.md) | [Soomaali](README_so.md)
+> **他の言語**: [简体中文](README_zh-CN.md) | [繁體中文](README_zh-TW.md) | [English](README_en.md) | **日本語** | [한국어](README_ko.md) | [Español](README_es.md) | [Français](README_fr.md) | [Deutsch](README_de.md) | [Português](README_pt.md) | [Русский](README_ru.md) | [العربية](README_ar.md) | [ไทย](README_th.md) | [Tiếng Việt](README_vi.md) | [Bahasa Indonesia](README_id.md) | [Türkçe](README_tr.md) | [Italiano](README_it.md) | [Nederlands](README_nl.md) | [Polski](README_pl.md) | [हिन्दी](README_hi.md) | [বাংলা](README_bn.md) | [Svenska](README_sv.md) | [Norsk](README_no.md) | [Dansk](README_da.md) | [Suomi](README_fi.md) | [Čeština](README_cs.md) | [Ελληνικά](README_el.md) | [Magyar](README_hu.md) | [Română](README_ro.md) | [Українська](README_uk.md) | [Slovenčina](README_sk.md) | [Български](README_bg.md) | [Hrvatski](README_hr.md) | [Српски](README_sr.md) | [Català](README_ca.md) | [Slovenščina](README_sl.md) | [Eesti](README_et.md) | [Latviešu](README_lv.md) | [Lietuvių](README_lt.md) | [فارسی](README_fa.md) | [Bahasa Melayu](README_ms.md) | [اردو](README_ur.md) | [தமிழ்](README_ta.md) | [తెలుగు](README_te.md) | [मराठी](README_mr.md) | [ગુજરાતી](README_gu.md) | [ਪੰਜਾਬੀ](README_pa.md) | [ಕನ್ನಡ](README_kn.md) | [മലയാളം](README_ml.md) | [Қазақ](README_kk.md) | [O'zbek](README_uz.md) | [עברית](README_he.md) | [မြန်မာ](README_my.md) | [ខ្មែរ](README_km.md) | [ລາວ](README_lo.md) | [Kiswahili](README_sw.md) | [Afrikaans](README_af.md) | [አማርኛ](README_am.md) | [isiZulu](README_zu.md) | [Filipino](README_fil.md) | [Gaeilge](README_ga.md) | [Íslenska](README_is.md) | [Malti](README_mt.md) | [Cymraeg](README_cy.md) | [Euskara](README_eu.md) | [Galego](README_gl.md) | [नेपाली](README_ne.md) | [සිංහල](README_si.md) | [ქართული](README_ka.md) | [Հայերեն](README_hy.md) | [Македонски](README_mk.md) | [Беларуская](README_be.md) | [ייִדיש](README_yi.md) | [Lëtzebuergesch](README_lb.md) | [Esperanto](README_eo.md) | [Føroyskt](README_fo.md) | [Gàidhlig](README_gd.md) | [Brezhoneg](README_br.md) | [Corsu](README_co.md) | [Rumantsch](README_rm.md) | [Occitan](README_oc.md) | [Asturianu](README_ast.md) | [Frysk](README_fy.md) | [Татарча](README_tt.md) | [Башҡортса](README_ba.md) | [Basa Jawa](README_jv.md) | [Basa Sunda](README_su.md) | [Cebuano](README_ceb.md) | [བོད་སྐད](README_bo.md) | [Kurdî](README_ku.md) | [پښتو](README_ps.md) | [سنڌي](README_sd.md) | [Тоҷикӣ](README_tg.md) | [Türkmen](README_tk.md) | [Кыргызча](README_ky.md) | [Монгол](README_mn.md) | [Hausa](README_ha.md) | [Igbo](README_ig.md) | [Yorùbá](README_yo.md) | [isiXhosa](README_xh.md) | [Malagasy](README_mg.md) | [chiShona](README_sn.md) | [Kinyarwanda](README_rw.md) | [Soomaali](README_so.md)
 
 ## 機能
 
 - **リアルタイム監視**: CPU周波数、CPU温度、GPU周波数、GPU温度、VRAM使用率、メモリ使用率
 - **2つの表示モード**: コーナーウィジェット / トップバー、ワンクリックで切り替え
 - **カスタマイズ可能な表示**: 表示する指標を自由に選択、パーセント/実値切り替え可能
-- **常に最前面**: 全てのウィンドウの上に表示、フルスクリーンゲームでも動作
+- **常に最前面**: 全てのウィンドウの上に表示. 全画面での表示はアプリと表示モードによって異なります
 - **自動サイズ調整**: ウィンドウ幅がコンテンツに合わせて自動調整
 - **調整可能なスタイル**: ウィンドウ透明度、背景透明度、フォントサイズが調整可能
-- **多言語対応**: 20以上の言語、システム言語を自動検出
+- **多言語対応**: 103言語、システム言語を自動検出
 - **簡単操作**: 左ドラッグで移動、右クリックメニューでクイック設定、画面端に自動吸着
 - **サンプリング間隔調整**: 200ms - 3000ms 調整可能
 - **自動起動**: Windowsログイン時に自動起動
@@ -22,17 +22,17 @@
 
 ### 直接使用
 
-`ChipPeek.exe`をダウンロードしてダブルクリックで実行（CPU温度と正確な周波数読み取りのため、自動的に管理者権限を要求します）。
+[`ChipPeek.exe`](https://github.com/shanyuduo/ChipPeek/releases/latest)をダウンロードしてダブルクリックで実行（CPU温度と正確な周波数読み取りのため、自動的に管理者権限を要求します）。
 
 ### ソースから実行
 
-```bash
+```powershell
 # リポジトリをクローン
-git clone https://github.com/Glimmer114514/ChipPeek.git
+git clone https://github.com/shanyuduo/ChipPeek.git
 cd ChipPeek
 
 # 依存関係をインストール
-pip install -r requirements.txt
+python -m pip install -r requirements.txt pythonnet
 
 # 実行
 python main.py
@@ -43,12 +43,13 @@ python main.py
 - Windows 10 / Windows 11
 - 管理者権限（推奨）、ない場合はCPU温度と正確な周波数が読み取れない場合があります
 - .NET Framework 4.7.2 以上（LibreHardwareMonitorに必要）
+- Python 3 + Tkinter (ソースから実行)
 
 ## EXEとしてビルド
 
-```bash
-pip install pyinstaller
-pyinstaller --noconfirm --onefile --windowed --name "ChipPeek" --icon "app.ico" --manifest "admin.manifest" --add-data "libs;libs" --add-data "app.ico;." --hidden-import "clr" --hidden-import "pynvml" --hidden-import "win32gui" --hidden-import "win32con" main.py
+```powershell
+python -m pip install -r requirements.txt pythonnet pyinstaller
+python -m PyInstaller --noconfirm --onefile --windowed --name "ChipPeek" --icon "app.ico" --manifest "admin.manifest" --add-data "libs;libs" --add-data "app.ico;." --add-data "i18n;i18n" --hidden-import "clr" --hidden-import "pynvml" --hidden-import "win32gui" --hidden-import "win32con" main.py
 ```
 
 ビルド後、EXEファイルは `dist/ChipPeek.exe` に生成されます。
@@ -72,11 +73,11 @@ pyinstaller --noconfirm --onefile --windowed --name "ChipPeek" --icon "app.ico" 
 
 - **表示モード**: コーナーウィジェット / トップバー
 - **ウィジェット位置**: 右下 / 左下 / 右上 / 左上
-- **ウィンドウ透明度**: 30% - 100% 全体の透明度
-- **背景透明度**: 0% - 100% 背景透明（テキストは鮮明なまま）
+- **ウィンドウ透明度**: スライダーの 0% - 100% はウィンドウの不透明度 100% - 15% に対応
+- **背景透明度**: 0 では背景は不透明、0 より大きい値では背景は完全に透明
 - **サンプリング間隔**: 200ms - 3000ms データ更新間隔
 - **フォントサイズ**: 8 - 20ポイント
-- **言語**: 20以上の言語、システム言語を自動検出
+- **言語**: 103言語、システム言語を自動検出
 - **表示指標**: 各指標を個別にオン/オフ可能
 - **表示形式**: VRAM / メモリはパーセントまたは実値に切り替え可能
 - **自動起動**: Windowsログイン時に自動実行
@@ -97,11 +98,13 @@ ChipPeek/
 ├── hardware_monitor.py      # ハードウェアデータ収集
 ├── config.py                # 設定管理
 ├── i18n.py                  # 国際化対応
+├── generate_docs.py
 ├── generate_icon.py         # アイコン生成スクリプト
 ├── admin.manifest           # UAC管理者権限マニフェスト
 ├── app.ico                  # アプリケーションアイコン
-├── app.png                  # アイコンプレビュー
+├── logo.png
 ├── requirements.txt         # Python依存関係
+├── build.bat
 ├── docs/                    # 多言語ドキュメント
 │   └── README_*.md
 ├── i18n/                    # 翻訳ファイル
@@ -115,18 +118,18 @@ ChipPeek/
 
 ## 設定ファイル
 
-設定ファイル `config.json` はEXEと同じディレクトリに保存され、全ての調整可能な設定が含まれています。設定の変更は自動的に保存されます。
+設定は `config.json` に自動保存されます。実行ファイル版では `ChipPeek.exe` と同じディレクトリ、ソースから実行する場合は `main.py` と同じディレクトリに保存されます。
 
 ## ライセンス
 
-MIT License
+[MIT License](../LICENSE)
 
 ## 開発者
 
-**R41NH4RD**
+**shanyuduo**
 
-- GitHub: [@R41NH4RD](https://github.com/Glimmer114514)
-- プロジェクトURL: [https://github.com/Glimmer114514/ChipPeek](https://github.com/Glimmer114514/ChipPeek)
+- GitHub: [@shanyuduo](https://github.com/shanyuduo)
+- プロジェクトURL: [https://github.com/shanyuduo/ChipPeek](https://github.com/shanyuduo/ChipPeek)
 
 ## 謝辞
 

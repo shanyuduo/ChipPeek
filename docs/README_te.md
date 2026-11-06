@@ -1,18 +1,18 @@
 # ChipPeek
 
-Windows కోసం ఒక తేలికపాటి ఫ్లోటింగ్ హార్డ్వేర్ మానిటరింగ్ విడ్జెట్. CPU/GPU ఫ్రీక్వెన్సీ, ఉష్ణోగ్రత, VRAM మరియు మెమరీ వినియోగం యొక్క రియల్ టైమ్ మానిటరింగ్, ఫుల్ స్క్రీన్ యాప్‌లతో సహా ఎల్లప్పుడూ ఎగువన ఉంటుంది.
+Windows కోసం ఒక తేలికపాటి ఫ్లోటింగ్ హార్డ్వేర్ మానిటరింగ్ విడ్జెట్.
 
-> **ఇతర భాషలు**: [简体中文](README_zh-CN.md) | [繁體中文](README_zh-TW.md) | [English](README_en.md) | [日本語](README_ja.md) | [한국어](README_ko.md) | [Español](README_es.md) | [Français](README_fr.md) | [Deutsch](README_de.md) | [Português](README_pt.md) | [Русский](README_ru.md) | [العربية](README_ar.md) | [ไทย](README_th.md) | [Tiếng Việt](README_vi.md) | [Bahasa Indonesia](README_id.md) | [Türkçe](README_tr.md) | [Italiano](README_it.md) | [Nederlands](README_nl.md) | [Polski](README_pl.md) | [हिन्दी](README_hi.md) | [বাংলা](README_bn.md) | [Svenska](README_sv.md) | [Norsk](README_no.md) | [Dansk](README_da.md) | [Suomi](README_fi.md) | [Čeština](README_cs.md) | [Ελληνικά](README_el.md) | [Magyar](README_hu.md) | [Română](README_ro.md) | [Українська](README_uk.md) | [Slovenčina](README_sk.md) | [Български](README_bg.md) | [Hrvatski](README_hr.md) | [Српски](README_sr.md) | [Català](README_ca.md) | [Slovenščina](README_sl.md) | [Eesti](README_et.md) | [Latviešu](README_lv.md) | [Lietuvių](README_lt.md) | [فارسی](README_fa.md) | [Bahasa Melayu](README_ms.md) | [اردو](README_ur.md) | [தமிழ்](README_ta.md) | **తెలుగు** | [मराठी](README_mr.md) | [ગુજરાતી](README_gu.md) | [ਪੰਜਾਬੀ](README_pa.md) | [ಕನ್ನಡ](README_kn.md) | [മലയാളം](README_ml.md) | [Қазақша](README_kk.md) | [O'zbekcha](README_uz.md) | [עברית](README_he.md) | [မြန်မာဘာသာ](README_my.md) | [ភាសាខ្មែរ](README_km.md) | [ພາສາລາວ](README_lo.md) | [Kiswahili](README_sw.md) | [Afrikaans](README_af.md) | [አማርኛ](README_am.md) | [isiZulu](README_zu.md) | [Filipino](README_fil.md) | [Gaeilge](README_ga.md) | [Íslenska](README_is.md) | [Malti](README_mt.md) | [Cymraeg](README_cy.md) | [Euskara](README_eu.md) | [Galego](README_gl.md) | [नेपाली](README_ne.md) | [සිංහල](README_si.md) | [ქართული](README_ka.md) | [Հայերեն](README_hy.md) | [Македонски](README_mk.md) | [Беларуская](README_be.md) | [ייִדיש](README_yi.md) | [Lëtzebuergesch](README_lb.md) | [Esperanto](README_eo.md) | [Føroyskt](README_fo.md) | [Gàidhlig](README_gd.md) | [Brezhoneg](README_br.md) | [Corsu](README_co.md) | [Rumantsch](README_rm.md) | [Occitan](README_oc.md) | [Asturianu](README_ast.md) | [Frysk](README_fy.md) | [Татарча](README_tt.md) | [Башҡортса](README_ba.md) | [Basa Jawa](README_jv.md) | [Basa Sunda](README_su.md) | [Cebuano](README_ceb.md) | [བོད་སྐད](README_bo.md) | [Kurdî](README_ku.md) | [پښتو](README_ps.md) | [سنڌي](README_sd.md) | [Тоҷикӣ](README_tg.md) | [Türkmen](README_tk.md) | [Кыргызча](README_ky.md) | [Монгол](README_mn.md) | [Hausa](README_ha.md) | [Igbo](README_ig.md) | [Yorùbá](README_yo.md) | [isiXhosa](README_xh.md) | [Malagasy](README_mg.md) | [chiShona](README_sn.md) | [Kinyarwanda](README_rw.md) | [Soomaali](README_so.md)
+> **ఇతర భాషలు**: [简体中文](README_zh-CN.md) | [繁體中文](README_zh-TW.md) | [English](README_en.md) | [日本語](README_ja.md) | [한국어](README_ko.md) | [Español](README_es.md) | [Français](README_fr.md) | [Deutsch](README_de.md) | [Português](README_pt.md) | [Русский](README_ru.md) | [العربية](README_ar.md) | [ไทย](README_th.md) | [Tiếng Việt](README_vi.md) | [Bahasa Indonesia](README_id.md) | [Türkçe](README_tr.md) | [Italiano](README_it.md) | [Nederlands](README_nl.md) | [Polski](README_pl.md) | [हिन्दी](README_hi.md) | [বাংলা](README_bn.md) | [Svenska](README_sv.md) | [Norsk](README_no.md) | [Dansk](README_da.md) | [Suomi](README_fi.md) | [Čeština](README_cs.md) | [Ελληνικά](README_el.md) | [Magyar](README_hu.md) | [Română](README_ro.md) | [Українська](README_uk.md) | [Slovenčina](README_sk.md) | [Български](README_bg.md) | [Hrvatski](README_hr.md) | [Српски](README_sr.md) | [Català](README_ca.md) | [Slovenščina](README_sl.md) | [Eesti](README_et.md) | [Latviešu](README_lv.md) | [Lietuvių](README_lt.md) | [فارسی](README_fa.md) | [Bahasa Melayu](README_ms.md) | [اردو](README_ur.md) | [தமிழ்](README_ta.md) | **తెలుగు** | [मराठी](README_mr.md) | [ગુજરાતી](README_gu.md) | [ਪੰਜਾਬੀ](README_pa.md) | [ಕನ್ನಡ](README_kn.md) | [മലയാളം](README_ml.md) | [Қазақ](README_kk.md) | [O'zbek](README_uz.md) | [עברית](README_he.md) | [မြန်မာ](README_my.md) | [ខ្មែរ](README_km.md) | [ລາວ](README_lo.md) | [Kiswahili](README_sw.md) | [Afrikaans](README_af.md) | [አማርኛ](README_am.md) | [isiZulu](README_zu.md) | [Filipino](README_fil.md) | [Gaeilge](README_ga.md) | [Íslenska](README_is.md) | [Malti](README_mt.md) | [Cymraeg](README_cy.md) | [Euskara](README_eu.md) | [Galego](README_gl.md) | [नेपाली](README_ne.md) | [සිංහල](README_si.md) | [ქართული](README_ka.md) | [Հայերեն](README_hy.md) | [Македонски](README_mk.md) | [Беларуская](README_be.md) | [ייִדיש](README_yi.md) | [Lëtzebuergesch](README_lb.md) | [Esperanto](README_eo.md) | [Føroyskt](README_fo.md) | [Gàidhlig](README_gd.md) | [Brezhoneg](README_br.md) | [Corsu](README_co.md) | [Rumantsch](README_rm.md) | [Occitan](README_oc.md) | [Asturianu](README_ast.md) | [Frysk](README_fy.md) | [Татарча](README_tt.md) | [Башҡортса](README_ba.md) | [Basa Jawa](README_jv.md) | [Basa Sunda](README_su.md) | [Cebuano](README_ceb.md) | [བོད་སྐད](README_bo.md) | [Kurdî](README_ku.md) | [پښتو](README_ps.md) | [سنڌي](README_sd.md) | [Тоҷикӣ](README_tg.md) | [Türkmen](README_tk.md) | [Кыргызча](README_ky.md) | [Монгол](README_mn.md) | [Hausa](README_ha.md) | [Igbo](README_ig.md) | [Yorùbá](README_yo.md) | [isiXhosa](README_xh.md) | [Malagasy](README_mg.md) | [chiShona](README_sn.md) | [Kinyarwanda](README_rw.md) | [Soomaali](README_so.md)
 
 ## లక్షణాలు
 
 - **రియల్ టైమ్ మానిటరింగ్**: CPU ఫ్రీక్వెన్సీ, CPU ఉష్ణోగ్రత, GPU ఫ్రీక్వెన్సీ, GPU ఉష్ణోగ్రత, VRAM వినియోగం, మెమరీ వినియోగం
 - **రెండు ప్రదర్శన మోడ్‌లు**: కార్నర్ విడ్జెట్ / టాప్ బార్, ఒక క్లిక్‌తో మార్చండి
 - **కస్టమైజ్ ప్రదర్శన**: ఏ మెట్రిక్‌లను ప్రదర్శించాలో స్వేచ్ఛగా ఎంచుకోండి, శాతం/వాస్తవ విలువల మధ్య మార్చండి
-- **ఎల్లప్పుడూ ఎగువన**: అన్ని విండోలు ఎగువన ఉంటుంది, ఫుల్ స్క్రీన్ గేమ్‌లలో పనిచేస్తుంది
+- **ఎల్లప్పుడూ ఎగువన**: అన్ని విండోలు ఎగువన ఉంటుంది. పూర్తి తెరలో కనిపించడం యాప్ మరియు ప్రదర్శన విధానంపై ఆధారపడి ఉంటుంది
 - **స్వయంచాలక పరిమాణం**: కంటెంట్ ఆధారంగా విండో వెడల్పు స్వయంచాలకంగా సర్దుబాటు చేయబడుతుంది
 - **సర్దుబాటు చేయగల స్టైల్**: విండో పారదర్శకత, నేపథ్య పారదర్శకత, ఫాంట్ పరిమాణం - అన్నీ సర్దుబాటు చేయగలవు
-- **బహుళ భాష మద్దతు**: 20+ భాషలు, స్వయంచాలకంగా సిస్టమ్ భాషను గుర్తిస్తుంది
+- **బహుళ భాష మద్దతు**: 103 భాషలు, స్వయంచాలకంగా సిస్టమ్ భాషను గుర్తిస్తుంది
 - **సులభ ఆపరేషన్**: ఎడమ క్లిక్ తో లాగి తరలించండి, కుడి క్లిక్ మెను శీఘ్ర సెట్టింగ్‌ల కోసం, స్క్రీన్ అంచుల వద్ద స్వయంచాలక స్నాప్
 - **సామ్పులింగ్ ఫ్రీక్వెన్సీ సర్దుబాటు**: 200ms - 3000ms సర్దుబాటు చేయగలదు
 - **ఆటో స్టార్ట్**: Windows లో లాగిన్ చేసినప్పుడు స్వయంచాలకంగా ప్రారంభమవుతుంది
@@ -22,17 +22,17 @@ Windows కోసం ఒక తేలికపాటి ఫ్లోటింగ
 
 ### ప్రత్యక్ష ఉపయోగం
 
-`ChipPeek.exe` ని డౌన్‌లోడ్ చేసి రన్ చేయడానికి డబుల్ క్లిక్ చేయండి (CPU ఉష్ణోగ్రత మరియు ఖచ్చితమైన ఫ్రీక్వెన్సీని చదవడానికి స్వయంచాలకంగా అడ్మిన్ అనుమతిని అభ్యర్థిస్తుంది).
+[`ChipPeek.exe`](https://github.com/shanyuduo/ChipPeek/releases/latest) ని డౌన్‌లోడ్ చేసి రన్ చేయడానికి డబుల్ క్లిక్ చేయండి (CPU ఉష్ణోగ్రత మరియు ఖచ్చితమైన ఫ్రీక్వెన్సీని చదవడానికి స్వయంచాలకంగా అడ్మిన్ అనుమతిని అభ్యర్థిస్తుంది).
 
 ### మూలం నుండి అమలు చేయండి
 
-```bash
+```powershell
 # రిపోజిటరీని క్లోన్ చేయండి
-git clone https://github.com/Glimmer114514/ChipPeek.git
+git clone https://github.com/shanyuduo/ChipPeek.git
 cd ChipPeek
 
 # డిపెండెన్సీలను ఇన్‌స్టాల్ చేయండి
-pip install -r requirements.txt
+python -m pip install -r requirements.txt pythonnet
 
 # అమలు చేయండి
 python main.py
@@ -43,12 +43,13 @@ python main.py
 - Windows 10 / Windows 11
 - అడ్మిన్ అనుమతి (సిఫార్సు చేయబడింది), లేకపోతే CPU ఉష్ణోగ్రత మరియు ఖచ్చితమైన ఫ్రీక్వెన్సీ అందుబాటులో ఉండకపోవచ్చు
 - .NET Framework 4.7.2 లేదా అంతకంటే ఎక్కువ (LibreHardwareMonitor కోసం అవసరం)
+- Python 3 + Tkinter (మూలం నుండి అమలు చేయండి)
 
 ## EXE గా బిల్డ్ చేయండి
 
-```bash
-pip install pyinstaller
-pyinstaller --noconfirm --onefile --windowed --name "ChipPeek" --icon "app.ico" --manifest "admin.manifest" --add-data "libs;libs" --add-data "app.ico;." --hidden-import "clr" --hidden-import "pynvml" --hidden-import "win32gui" --hidden-import "win32con" main.py
+```powershell
+python -m pip install -r requirements.txt pythonnet pyinstaller
+python -m PyInstaller --noconfirm --onefile --windowed --name "ChipPeek" --icon "app.ico" --manifest "admin.manifest" --add-data "libs;libs" --add-data "app.ico;." --add-data "i18n;i18n" --hidden-import "clr" --hidden-import "pynvml" --hidden-import "win32gui" --hidden-import "win32con" main.py
 ```
 
 బిల్డ్ చేసిన తర్వాత, EXE ఫైల్ `dist/ChipPeek.exe` లో ఉంది.
@@ -72,11 +73,11 @@ pyinstaller --noconfirm --onefile --windowed --name "ChipPeek" --icon "app.ico" 
 
 - **ప్రదర్శన మోడ్**: కార్నర్ విడ్జెట్ / టాప్ బార్
 - **విడ్జెట్ స్థానం**: డౌన్ కుడి / డౌన్ ఎడమ / టాప్ కుడి / టాప్ ఎడమ
-- **విండో పారదర్శకత**: 30% - 100% మొత్తం విండో పారదర్శకత
-- **నేపథ్య పారదర్శకత**: 0% - 100% నేపథ్య పారదర్శకత (టెక్స్ట్ స్పష్టంగా ఉంటుంది)
+- **విండో పారదర్శకత**: స్లైడర్ 0% - 100% విండో అపారదర్శకత 100% - 15%కి సమానం
+- **నేపథ్య పారదర్శకత**: 0 వద్ద నేపథ్యం అపారదర్శకంగా ఉంటుంది; 0 కంటే ఎక్కువైతే పూర్తిగా పారదర్శకమవుతుంది
 - **సామ్పులింగ్ ఇంటర్వల్**: 200ms - 3000ms డేటా రిఫ్రెష్ రేటు
 - **ఫాంట్ పరిమాణం**: 8 - 20 పాయింట్లు
-- **భాష**: 20+ భాషలు, స్వయంచాలకంగా సిస్టమ్ భాషను గుర్తిస్తుంది
+- **భాష**: 103 భాషలు, స్వయంచాలకంగా సిస్టమ్ భాషను గుర్తిస్తుంది
 - **ప్రదర్శన మెట్రిక్‌లు**: ప్రతి మెట్రిక్‌ను స్వతంత్రంగా ఆన్/ఆఫ్ చేయండి
 - **ప్రదర్శన ఫార్మాట్**: VRAM / మెమరీ శాతం లేదా వాస్తవ విలువల మధ్య మార్చగలదు
 - **ఆటో స్టార్ట్**: Windows లో లాగిన్ చేసినప్పుడు స్వయంచాలకంగా రన్ చేయండి
@@ -97,11 +98,13 @@ ChipPeek/
 ├── hardware_monitor.py      # హార్డ్వేర్ డేటా సేకరణ
 ├── config.py                # కాన్ఫిగరేషన్ నిర్వహణ
 ├── i18n.py                  # అంతర్జాతీయీకరణ
+├── generate_docs.py
 ├── generate_icon.py         # ఐకాన్ జనరేషన్ స్క్రిప్ట్
 ├── admin.manifest           # UAC అడ్మిన్ అనుమతి మానిఫెస్ట్
 ├── app.ico                  # అప్లికేషన్ ఐకాన్
-├── app.png                  # ఐకాన్ ప్రివ్యూ
+├── logo.png
 ├── requirements.txt         # Python డిపెండెన్సీలు
+├── build.bat
 ├── docs/                    # బహుళ భాష డాక్యుమెంటేషన్
 │   └── README_*.md
 ├── i18n/                    # అనువాద ఫైల్స్
@@ -115,18 +118,18 @@ ChipPeek/
 
 ## కాన్ఫిగరేషన్ ఫైల్
 
-`config.json` ఫైల్ EXE తో అదే డైరెక్టరీలో సేవ్ చేయబడుతుంది మరియు అన్ని సర్దుబాటు చేయగల సెట్టింగ్‌లను కలిగి ఉంటుంది. సెట్టింగ్‌లు మార్చబడినప్పుడు స్వయంచాలకంగా సేవ్ చేయబడతాయి.
+`config.json` ఫైల్ `ChipPeek.exe` / `main.py` తో అదే డైరెక్టరీలో సేవ్ చేయబడుతుంది మరియు అన్ని సర్దుబాటు చేయగల సెట్టింగ్‌లను కలిగి ఉంటుంది. సెట్టింగ్‌లు మార్చబడినప్పుడు స్వయంచాలకంగా సేవ్ చేయబడతాయి.
 
 ## లైసెన్స్
 
-MIT License
+[MIT License](../LICENSE)
 
 ## డెవలపర్
 
-**R41NH4RD**
+**shanyuduo**
 
-- GitHub: [@R41NH4RD](https://github.com/Glimmer114514)
-- ప్రాజెక్ట్ URL: [https://github.com/Glimmer114514/ChipPeek](https://github.com/Glimmer114514/ChipPeek)
+- GitHub: [@shanyuduo](https://github.com/shanyuduo)
+- ప్రాజెక్ట్ URL: [https://github.com/shanyuduo/ChipPeek](https://github.com/shanyuduo/ChipPeek)
 
 ## క్రెడిట్స్
 
